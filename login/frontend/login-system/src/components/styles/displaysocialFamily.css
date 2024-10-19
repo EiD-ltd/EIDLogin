@@ -1,0 +1,86 @@
+/* Container Styling */
+.socfam-container {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(16, 23, 30, 0.374);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 30px auto;
+  max-height: 80vh; /* Limit the height of the container to fit within the viewport */
+  overflow-y: auto;
+  }
+  
+  .socfam-container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid #002346;
+    padding-bottom: 10px;
+  }
+  
+  /* List Styling */
+  .socfam-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socfam-item {
+    background-color: rgba(16, 23, 30, 0.374);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .socfam-item:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .socfam-item p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 12px;
+  }
+  
+  .socfam-item ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .socfam-item ul li {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  
+  /* Subheadings */
+  .socfam-item p span,
+  .socfam-item p strong {
+    font-weight: 600;
+    color: #9a9a9a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .socfam-container {
+      padding: 20px;
+    }
+  
+    .socfam-item {
+      padding: 15px;
+    }
+  
+    .socfam-item p {
+      font-size: 14px;
+    }
+  
+    .socfam-item ul li {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,84 @@
+.data-share-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(25, 69, 110, 0.451);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enables scrolling if content overflows */
+  height: 80vh;
+  width: 80vw; 
+}
+
+h2, h3 {
+  color: white;
+}
+
+
+
+.error-message {
+  color: red;
+}
+
+.data-section {
+  margin-top: 20px;
+}
+
+.data-section h3 {
+  color: lightgray;
+}
+.data-item
+{
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(25, 69, 110, 0.451);
+  margin: 10px;
+}
+.data-item label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.deadline-picker {
+  margin: 10px 0;
+  color: lightgray;
+}
+
+.deadline-picker input {
+  margin-left: 10px;
+}
+
+button.clear-btn {
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.clear-btn:hover {
+  background-color: darkred;
+}
+
+button.share-btn {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(4, 85, 135);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.share-btn:hover {
+  background-color: rgb(0, 62, 100);
+}
+
+.shareable-link {
+  margin-top: 10px;
+  color: lightgreen;
+}

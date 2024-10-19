@@ -1,0 +1,114 @@
+/* General Form Styles */
+.employment-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(25, 69, 110, 0.451);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enables scrolling if content overflows */
+  height: 80vh;
+  width: 80vw; /* Sets a height limit for the form */
+}
+
+/* Header Styles */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Job Entries Section */
+.job-entries {
+  margin-bottom: 20px;
+  max-height: 60vh; /* Limit height for job entries to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrolling if entries exceed height */
+}
+
+/* Individual Job Entry Styles */
+.job-entry {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(25, 69, 110, 0.451);
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Focus Styles for Input Fields */
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error Styles */
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Response Message Styles */
+.response-message {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+}
+
+/* Remove and Add Entry Button Styles */
+.remove-entry,
+.add-entry {
+  background-color: #dc3545;
+  margin-top: 10px;
+  color: white;
+}
+
+.remove-entry:hover {
+  background-color: #c82333;
+}
+
+.add-entry {
+  background-color: #28a745;
+}
+
+.add-entry:hover {
+  background-color: #218838;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .employment-form {
+      width: 90%;
+  }
+}

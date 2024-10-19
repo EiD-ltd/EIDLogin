@@ -1,0 +1,103 @@
+.edu-form {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(25, 69, 110, 0.451); /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow-y: auto; /* Allow scrolling */
+   /* Limit height */
+   height: 80vh;
+   width: 80vw; 
+}
+
+.edu-fieldset {
+  border: 1px solid #ccc; /* Light border for sections */
+  border-radius: 8px; /* Rounded corners for fieldsets */
+  padding: 20px;
+  margin-bottom: 20px; /* Space between sections */
+}
+
+.edu-fieldset legend {
+  font-weight: bold; /* Bold legend */
+  font-size: 1.5em; /* Larger font for legend */
+}
+
+h2 {
+  text-align: center; /* Centered title */
+  margin-bottom: 20px; /* Space below title */
+}
+
+.edu-education-entry {
+  margin-bottom: 20px; /* Space between education entries */
+  padding: 15px;
+  border: 1px solid #ddd; /* Light border around entries */
+  border-radius: 5px; /* Rounded corners for entries */
+  background-color: rgba(25, 69, 110, 0.451); /* White background for entries */
+}
+
+.edu-form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+.edu-label {
+  color: rgb(68, 68, 68);
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+input[type="text"].edu-error,
+input[type="date"].edu-error,
+select.edu-error {
+  border-color: red; /* Red border for errors */
+}
+
+.edu-error-message {
+  color: red; /* Red color for error messages */
+  font-size: 0.9em; /* Smaller font size for error messages */
+}
+
+.edu-success-message {
+  color: green; /* Green color for success messages */
+  font-weight: bold; /* Bold success messages */
+}
+
+.edu-add-entry,
+.edu-remove-entry,
+.edu-submit {
+  padding: 10px 15px; /* Padding for buttons */
+  background-color: #007bff; /* Bootstrap blue */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for buttons */
+  margin-top: 10px; /* Space above buttons */
+}
+
+.edu-add-entry:hover,
+.edu-remove-entry:hover,
+.edu-submit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+@media (max-width: 768px) {
+  .edu-form {
+    padding: 10px; /* Less padding on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Smaller title */
+  }
+}

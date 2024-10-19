@@ -1,0 +1,33 @@
+/* Dashboard.css */
+
+/* Container for the dashboard page */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header */
+  .dashboard-container h2 {
+    color: #f8f8f8;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* User details */
+  .dashboard-container p {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+  }
+
+  /* Loading state */
+  .dashboard-container p.loading {
+    font-size: 16px;
+    color: white;
+  }
+  
